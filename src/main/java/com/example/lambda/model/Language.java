@@ -1,4 +1,4 @@
-package com.keyholesoftware.lambda.model;
+package com.example.lambda.model;
 
 public class Language {
 

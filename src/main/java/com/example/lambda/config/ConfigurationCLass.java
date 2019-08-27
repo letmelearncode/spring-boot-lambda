@@ -1,4 +1,4 @@
-package com.keyholesoftware.lambda.config;
+package com.example.lambda.config;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;

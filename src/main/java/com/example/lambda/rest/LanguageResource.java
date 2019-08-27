@@ -1,18 +1,16 @@
-package com.keyholesoftware.lambda.rest;
+package com.example.lambda.rest;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.keyholesoftware.lambda.config.ConfigurationCLass;
-import com.keyholesoftware.lambda.config.GlobalProperties;
-import com.keyholesoftware.lambda.service.LanguageService;
+import com.example.lambda.config.GlobalProperties;
+import com.example.lambda.config.ConfigurationCLass;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.keyholesoftware.lambda.model.Language;
+import com.example.lambda.model.Language;
 
 @RestController
 public class LanguageResource {

@@ -1,4 +1,4 @@
-package com.keyholesoftware.lambda;
+package com.example.lambda;
 
 import java.io.IOException;
 import java.io.InputStream;
