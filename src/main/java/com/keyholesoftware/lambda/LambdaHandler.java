@@ -11,6 +11,7 @@ import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 
+
 public class LambdaHandler implements RequestStreamHandler {
 
     private static SpringBootLambdaContainerHandler<AwsProxyRequest, AwsProxyResponse> handler;
